@@ -6,4 +6,8 @@ class Order {
       this.unitPrice = unitPrice;
     }
 
+    totalPrice(quantity, unitPrice){
+      return quantity*unitPrice; 
+    }
+
 }
